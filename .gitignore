@@ -1,12 +1,7 @@
 node_modules
 .env
-log.txt
-.idea
+.env.*
+*.log
 dist
-.DS_Store
-.vscode
-tsconfig.tsbuildinfo
-
-# Documentation build output
-docs/build
-docs/.docusaurus
+build
+coverage

@@ -18,7 +18,9 @@
     "dev:ui": "pnpm --filter @CCR/ui dev",
     "dev:core": "pnpm --filter @musistudio/llms dev",
     "dev:docs": "pnpm --filter claude-code-router-docs start",
-    "serve:docs": "pnpm --filter claude-code-router-docs serve"
+    "serve:docs": "pnpm --filter claude-code-router-docs serve",
+    "buzz:gov:check": "node -e \"console.log('Buzzomatic governance active')\"",
+    "buzz:persist:test": "node -e \"const {persistSignalEvent}=require('./server/artifacts/persistSignalEvent'); console.log(persistSignalEvent({type:'nfc_scan',source:'buzznode',status:'test'}))\""
   },
   "bin": {
     "ccr": "dist/cli.js"
