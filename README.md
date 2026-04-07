@@ -6,40 +6,15 @@
 
 ---
 
-# ⚡ Buzznode Router — Signal Execution Core
+# ⚡ BuzzNode Router
+### Signal Execution Core
 
 > SIGNAL → EVENT → ANALYSIS → DECISION → ACTION
 
-## 🧠 Identity
+## Upstream Baseline + Attribution
 
-- Project: Buzznode Router
-- Entity: Buzzomatic Intelligence LLC
-- Class: Execution Node
-- Layer: Signal Routing + Event Processing
-- Mode: BuzzFlow E2E
-- State: Buzz remix layer on top of upstream router baseline
+This repository is a fork/remix derived from `musistudio/claude-code-router`.
 
-## 🛰️ What This Does
+Original upstream purpose: route Claude Code requests across different providers/models with configurable transformers and routing logic.
 
-Buzznode Router acts as a real-time signal execution surface:
-
-- WebSocket signal ingestion
-- event normalization
-- provider / model routing
-- backend sync + persistence
-- analysis handoff
-- dashboard-facing runtime state
-
-This is not just a CLI router surface.
-
-This is:
-
-- infrastructure layer
-- signal interpreter
-- decision gateway
-- governed execution node
-
-## 📡 BuzzFlow Runtime Path
-
-```text
-SIGNAL -> EVENT -> ANALYSIS -> DECISION -> ACTION
+Upstream license: MIT.
